@@ -45,3 +45,8 @@
 @media(max-width:1000px){.awards-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.affiliates-feature{grid-template-columns:1fr 1fr}.location-layout{grid-template-columns:1fr;gap:44px}.location-map iframe{height:420px}.affiliates-list li{padding:17px;gap:13px}}
 @media(max-width:750px){.awards-heading{flex-direction:column;align-items:start;gap:12px}.affiliates-feature{grid-template-columns:1fr}.affiliates-proof{padding:24px}.affiliates-document img{max-height:480px}.affiliates-list{grid-template-columns:1fr}.affiliates-list-heading{margin-top:55px}.location-layout{gap:30px}.location-map iframe{height:340px}}
 @media(max-width:530px){.awards-gallery{padding-top:51px;margin-top:55px}.awards-grid{gap:10px}.award-photo{padding:6px}.award-photo img{height:183px}.award-photo-text{padding:10px 5px 5px;gap:7px;min-height:85px}.award-photo-text strong{font-size:11px}.award-photo-text small{font-size:8px}.awards-heading h3{font-size:21px}.affiliates-film{padding:10px}.feature-caption{padding:17px 4px 5px}.feature-caption strong{font-size:14px}.feature-mark{height:40px;width:40px}.affiliates-list li{min-height:75px}.affiliates-list li>span:last-child{font-size:12px}.location-info h2{font-size:28px}.location-map iframe{height:320px}.map-footer{flex-direction:column;gap:5px}.gallery-dialog img{max-height:68vh}}
+
+/* Hide affiliated institutions subtitle */
+.affiliates-section .section-intro > p {
+    display: none !important;
+}

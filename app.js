@@ -186,3 +186,21 @@
   photoDialog.addEventListener('close', () => { photoImage.removeAttribute('src'); });
   updateLanguage();
 })();
+
+/* Fix Back to Top button */
+document.addEventListener("DOMContentLoaded", () => {
+  const topButton = document.querySelector(
+    '#backToTop, .back-to-top, [data-back-to-top]'
+  );
+
+  if (topButton) {
+    topButton.addEventListener("click", (event) => {
+      event.preventDefault();
+
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  }
+});

@@ -7,6 +7,8 @@
   const base = config.url.replace(/\/$/, '') + '/rest/v1/';
   const headers = { apikey: config.anonKey, Authorization: `Bearer ${config.anonKey}` };
   let news = [];
+  let selectedCategory = 'all';
+  let searchTerm = '';
   let currentLanguage = document.querySelector('.lang-option.active')?.dataset.lang || 'si';
   const categories = {
     events: { si:'වැඩසටහන්',en:'Events',ta:'நிகழ்வுகள்' },
@@ -68,6 +70,10 @@
     return value ? new Date(value).toLocaleDateString(locale, { year:'numeric', month:'short', day:'numeric' }): '';
   };
 
+  const words = {si:{read:'කියවන්න ↗',live:'අලුත්ම පුවත්',note:'විද්‍යාකීර්ති පිරිවෙනේ නිල පුවත්',all:'සියල්ල',search:'පුවත් සොයන්න...',none:'මෙම වර්ගයට ගැළපෙන පුවත් නැහැ.',results:'පුවත්',share:'පුවත බෙදාගන්න'},en:{read:'Read story ↗',live:'LATEST STORIES',note:'Official stories from Vidyakeerthi Pirivena',all:'All',search:'Search stories...',none:'No matching stories found.',results:'stories',share:'Share story'},ta:{read:'மேலும் வாசிக்க ↗',live:'அண்மைய செய்திகள்',note:'வித்யாகீர்த்தி பிரிவெனாவின் செய்திகள்',all:'அனைத்தும்',search:'செய்திகளைத் தேடுங்கள்...',none:'பொருத்தமான செய்திகள் இல்லை.',results:'செய்திகள்',share:'செய்தியைப் பகிர்'}};
+  const word = key => words[currentLanguage]?.[key] || words.si[key];
+  const articleLink = article => new URL('news.html#article-'+article.id,location.href).href;
+
   function newsModal() {
     let modal = document.getElementById('cms-article-modal');
     if (modal) return modal;
@@ -90,13 +96,18 @@
     content.append(meta,el('h2','cms-article-title',languageName(article,'title')),
       el('p','cms-article-summary',languageName(article,'summary')),
       el('div','cms-article-body',languageName(article,'body')));
+    const actions=el('div','cms-article-actions'),brand=el('span','cms-article-brand','✺ VIDYAKEERTHI JOURNAL');
+    const share=el('button','cms-article-share',word('share')+' ↗');share.type='button';
+    share.onclick=async()=>{const url=articleLink(article);try{if(navigator.share)await navigator.share({title:languageName(article,'title'),url});else if(navigator.clipboard){await navigator.clipboard.writeText(url);share.textContent='✓ '+url;}else{prompt('Article link',url)}}catch(e){if(e.name!=='AbortError')prompt('Article link',url)}};
+    actions.append(brand,share);content.append(actions);
     if (typeof modal.showModal==='function') modal.showModal();
     else modal.setAttribute('open','');
   }
-  function renderArticles(container, items) {
+  function renderArticles(container, items, featured=false) {
     container.replaceChildren();
-    for (const article of items) {
-      const card=el('article','cms-news-card');
+    if (!items.length) {container.append(el('div','cms-news-empty',word('none')));return;}
+    for (const [index,article] of items.entries()) {
+      const card=el('article','cms-news-card'+(featured&&index===0?' cms-news-card--lead':''));
       const button=el('button','cms-news-button');button.type='button';
       if (safeUrl(article.cover_url)) {
         const img=el('img','cms-news-image');img.src=article.cover_url;img.alt='';img.loading='lazy';button.append(img);
@@ -105,7 +116,7 @@
       copy.append(el('span','cms-news-category',(categories[article.category]?.[currentLanguage]||article.category)+(article.featured?' · ★':'')));
       copy.append(el('h3','',languageName(article,'title')));
       copy.append(el('p','',languageName(article,'summary')));
-      copy.append(el('small','cms-news-date',dateLabel(article.published_at)));
+      const bottom=el('div','cms-news-bottom');bottom.append(el('small','cms-news-date',dateLabel(article.published_at)),el('span','cms-news-read',word('read')));copy.append(bottom);
       button.append(copy);button.onclick=()=>openArticle(article.id);card.append(button);container.append(card);
     }
   }
@@ -113,12 +124,17 @@
     const section=document.getElementById('news'),grid=document.getElementById('cms-news-grid');
     if (section && grid && news.length) {
       section.hidden=false;
-      renderArticles(grid,news.slice(0,6));
+      let bar=document.getElementById('cms-news-livebar');
+      if(!bar){bar=el('div','cms-news-livebar');bar.id='cms-news-livebar';grid.before(bar);}
+      bar.replaceChildren(el('strong','cms-live-label',word('live')),el('span','cms-live-note',word('note')));
+      const allLink=el('a','',word('all')+' ↗');allLink.href='news.html';bar.append(allLink);
+      renderArticles(grid,news.slice(0,5),true);
       if (!document.querySelector('.nav-links a[href="#news"]')) {
         const link=el('a','',({si:'පුවත්',en:'News',ta:'செய்திகள்'})[currentLanguage]);
         link.href='#news';link.dataset.cmsNewsLink='';
         const galleryLink=document.querySelector('.nav-links a[href="#gallery"]');
-        (galleryLink||document.querySelector('.nav-links')).before(link);
+        const list=document.querySelector('.nav-links');
+        if(galleryLink)galleryLink.before(link);else list?.append(link);
         link.addEventListener('click',()=>{
           const menu=document.getElementById('nav-links');menu?.classList.remove('is-open');
           document.getElementById('menu-toggle')?.setAttribute('aria-expanded','false');
@@ -126,9 +142,25 @@
       }
     }
     const archive=document.getElementById('cms-news-archive');
-    if (archive) renderArticles(archive,news);
+    if(archive) {
+      const filtered=news.filter(item=>{
+        const categoryOK=selectedCategory==='all'||item.category===selectedCategory;
+        const haystack=['si','en','ta'].flatMap(lang=>['title','summary','body'].map(field=>item[field+'_'+lang]||'')).join(' ').toLocaleLowerCase();
+        return categoryOK&&haystack.includes(searchTerm);
+      });
+      renderArticles(archive,filtered,true);
+      const count=document.getElementById('cms-news-count');if(count)count.textContent=filtered.length+' '+word('results');
+      const search=document.getElementById('cms-news-search');if(search)search.placeholder=word('search');
+      const filters=document.getElementById('cms-news-filters');
+      if(filters){filters.replaceChildren();for(const category of ['all',...Object.keys(categories)]) {
+        const label=category==='all'?word('all'):(categories[category]?.[currentLanguage]||category);
+        const button=el('button','cms-filter-pill'+(selectedCategory===category?' is-active':''),label);
+        button.type='button';button.setAttribute('aria-pressed',String(selectedCategory===category));
+        button.onclick=()=>{selectedCategory=category;renderNews();};filters.append(button);
+      }}
+    }
     const navLink=document.querySelector('[data-cms-news-link]');
-    if (navLink) navLink.textContent=({si:'පුවත්',en:'News',ta:'செய்திகள்'})[currentLanguage];
+    if(navLink)navLink.textContent=({si:'පුවත්',en:'News',ta:'செய்திகள்'})[currentLanguage];
   }
   function renderGallery(rows) {
     const target=document.querySelector('#gallery .gallery-grid');
@@ -179,5 +211,7 @@
     await Promise.allSettled(tasks);
   }
   window.addEventListener('hashchange',findHashArticle);
+  const newsSearch=document.getElementById('cms-news-search');
+  if(newsSearch) newsSearch.addEventListener('input',e=>{searchTerm=e.target.value.trim().toLocaleLowerCase();renderNews();});
   init();
 })();

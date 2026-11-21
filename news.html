@@ -4,7 +4,13 @@
 <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="cms-news.css"></head>
 <body><div class="topbar"><div class="container topbar-inner"><span class="topbar-left">✺ විද්‍යාකීර්ති මහා පිරිවෙන — තිස්සපෑල</span><span class="topbar-right">VIDYAKEERTHI JOURNAL</span></div></div>
 <header class="site-header"><nav class="container nav-shell" aria-label="News"><a class="brand" href="index.html"><span class="brand-copy"><strong>විද්‍යාකීර්ති මහා පිරිවෙන</strong><small>පිරිවෙනේ පුවත් සහ නිවේදන</small></span></a><div class="nav-actions"><a href="index.html" class="btn btn-gold">← මුල් පිටුව</a><div class="lang-switch" role="group" aria-label="Language"><button class="lang-option active" data-lang="si" type="button">සිංහල</button><button class="lang-option" data-lang="en" type="button">EN</button><button class="lang-option lang-option-ta" data-lang="ta" type="button">தமிழ்</button></div></div></nav></header>
-<main class="cms-news-archive-section"><div class="container"><h1 id="archive-heading">පිරිවෙනේ අලුත්ම පුවත්</h1><div id="cms-news-archive" class="cms-news-grid"><p>පුවත් පූරණය වෙමින් පවතී...</p></div></div></main>
+<main class="cms-news-archive-section">
+<section class="cms-archive-hero"><div class="container"><span class="cms-archive-topline">✺ VIDYAKEERTHI JOURNAL</span>
+<h1 id="archive-heading">පිරිවෙනේ අලුත්ම පුවත්</h1>
+<p id="archive-desc">ධර්ම ශාස්ත්‍රීය මෙහෙවරේ අලුත් තොරතුරු, අධ්‍යාපනික ජයග්‍රහණ සහ වැදගත් නිවේදන.</p></div></section>
+<div class="container cms-archive-workspace"><div class="cms-news-toolbar"><label class="cms-news-search-wrap" for="cms-news-search"><span class="cms-search-symbol" aria-hidden="true">⌕</span><input id="cms-news-search" class="cms-news-search" type="search" placeholder="පුවත් සොයන්න..." autocomplete="off"></label><span class="cms-news-result-count" id="cms-news-count"></span></div>
+<div class="cms-news-filters" id="cms-news-filters" aria-label="Filter news by category"></div>
+<div id="cms-news-archive" class="cms-news-grid"><p>පුවත් පූරණය වෙමින් පවතී...</p></div></div></main>
 <footer class="site-footer"><div class="container footer-bottom"><span>© 2026 VIDYAKEERTHI MAHA PIRIVENA</span><a href="index.html">මුල් පිටුවට යන්න →</a></div></footer>
 <script src="cms-config.js"></script><script src="cms-public.js" defer></script><script defer>
 document.addEventListener('DOMContentLoaded',()=>{
@@ -12,7 +18,8 @@ document.addEventListener('DOMContentLoaded',()=>{
   buttons.forEach(button=>button.addEventListener('click',()=>{
     buttons.forEach(b=>b.classList.toggle('active',b===button));
     document.documentElement.lang=button.dataset.lang;
-    document.getElementById('archive-heading').textContent=({si:'පිරිවෙනේ අලුත්ම පුවත්',en:'Latest News',ta:'பிரிவெனாவின் அண்மைய செய்திகள்'})[button.dataset.lang];
+    document.getElementById('archive-heading').textContent=({si:'පිරිවෙනේ අලුත්ම පුවත්',en:'The Vidyakeerthi Journal',ta:'பிரிவெனாவின் அண்மைய செய்திகள்'})[button.dataset.lang];
+    document.getElementById('archive-desc').textContent=({si:'ධර්ම ශාස්ත්‍රීය මෙහෙවරේ අලුත් තොරතුරු, අධ්‍යාපනික ජයග්‍රහණ සහ වැදගත් නිවේදන.',en:'Stories, achievements and announcements from our living heritage.',ta:'கல்விச் சாதனைகள், நிகழ்வுகள் மற்றும் முக்கிய அறிவிப்புகள்.'})[button.dataset.lang];
     document.dispatchEvent(new CustomEvent('vidya:language',{detail:{language:button.dataset.lang}}));
   }));
 });

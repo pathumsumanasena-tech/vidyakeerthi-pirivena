@@ -1,0 +1,1415 @@
+{
+  "text": [
+    {
+      "key": "text.general.001",
+      "section": "general",
+      "si": "1959 සිට ධර්මය, විනය සහ විද්‍යාව",
+      "en": "Dhamma, discipline & knowledge since 1959",
+      "ta": "1959 முதல் அறம், ஒழுக்கம், அறிவு",
+      "tag": "span"
+    },
+    {
+      "key": "text.header.001",
+      "section": "header",
+      "si": "විද්‍යාකීර්ති මහා පිරිවෙන",
+      "en": "Vidyakeerthi Maha Pirivena",
+      "ta": "வித்யாகீர்த்தி மகா பிரிவெனா",
+      "tag": "strong"
+    },
+    {
+      "key": "text.header.002",
+      "section": "header",
+      "si": "තිස්සපෑල · හඟුරන්කෙත",
+      "en": "Tissapela · Hanguranketha",
+      "ta": "திஸ்ஸபேல · ஹங்குரன்கெத்த",
+      "tag": "small"
+    },
+    {
+      "key": "text.header.003",
+      "section": "header",
+      "si": "අපේ ඉතිහාසය",
+      "en": "History",
+      "ta": "எமது வரலாறு",
+      "tag": "a"
+    },
+    {
+      "key": "text.header.004",
+      "section": "header",
+      "si": "අප ගැන",
+      "en": "About",
+      "ta": "எங்களைப் பற்றி",
+      "tag": "a"
+    },
+    {
+      "key": "text.header.005",
+      "section": "header",
+      "si": "අධ්‍යාපනය",
+      "en": "Education",
+      "ta": "கல்வி",
+      "tag": "a"
+    },
+    {
+      "key": "text.header.006",
+      "section": "header",
+      "si": "නායකත්වය",
+      "en": "Leadership",
+      "ta": "தலைமைத்துவம்",
+      "tag": "a"
+    },
+    {
+      "key": "text.header.007",
+      "section": "header",
+      "si": "ජයග්‍රහණ",
+      "en": "Achievements",
+      "ta": "சாதனைகள்",
+      "tag": "a"
+    },
+    {
+      "key": "text.header.008",
+      "section": "header",
+      "si": "ඡායාරූප",
+      "en": "Gallery",
+      "ta": "புகைப்படங்கள்",
+      "tag": "a"
+    },
+    {
+      "key": "text.header.009",
+      "section": "header",
+      "si": "අනුබද්ධ ස්ථාන",
+      "en": "Affiliates",
+      "ta": "இணைந்த இடங்கள்",
+      "tag": "a"
+    },
+    {
+      "key": "text.header.010",
+      "section": "header",
+      "si": "පිහිටීම",
+      "en": "Location",
+      "ta": "இருப்பிடம்",
+      "tag": "a"
+    },
+    {
+      "key": "text.header.011",
+      "section": "header",
+      "si": "QR මඟපෙන්වීම",
+      "en": "QR guide",
+      "ta": "QR வழிகாட்டி",
+      "tag": "a"
+    },
+    {
+      "key": "text.home.001",
+      "section": "home",
+      "si": "1959 — 2026 | අභිමානවත් වසර 67ක්",
+      "en": "1959 — 2026 | 67 years of heritage",
+      "ta": "1959 — 2026 | பெருமைமிகு 67 ஆண்டுகள்",
+      "tag": "span"
+    },
+    {
+      "key": "text.home.002",
+      "section": "home",
+      "si": "අතීතයෙන්",
+      "en": "From the",
+      "ta": "மரபிலிருந்து",
+      "tag": "span"
+    },
+    {
+      "key": "text.home.003",
+      "section": "home",
+      "si": "අනාගතයට",
+      "en": "past into the",
+      "ta": "நாளையை நோக்கி",
+      "tag": "span"
+    },
+    {
+      "key": "text.home.004",
+      "section": "home",
+      "si": "විද්‍යාකීර්තිය.",
+      "en": "future of wisdom.",
+      "ta": "வித்யாகீர்த்தி.",
+      "tag": "em"
+    },
+    {
+      "key": "text.home.005",
+      "section": "home",
+      "si": "හඟුරන්කෙත තිස්සපෑල පින්බිමේ, ධර්මය හා විද්‍යාව එකට පෝෂණය කළ විද්‍යාකීර්ති මහා පිරිවෙනේ 67 වසරක අභිමානවත් ගමන්මඟට ඔබ සාදරයෙන් පිළිගනිමු.",
+      "en": "Welcome to the 67-year journey of Vidyakeerthi Maha Pirivena in Tissapela, Hanguranketha — a living tradition of Buddhist learning, discipline and service.",
+      "ta": "ஹங்குரன்கெத்த, திஸ்ஸபேலவில் தர்மத்தையும் கல்வியையும் வளர்த்த வித்யாகீர்த்தி மகா பிரிவெனாவின் பெருமைமிகு 67 ஆண்டு பயணத்திற்கு உங்களை அன்புடன் வரவேற்கிறோம்.",
+      "tag": "p"
+    },
+    {
+      "key": "text.home.006",
+      "section": "home",
+      "si": "අපේ ගමන්මඟ බලන්න",
+      "en": "Explore our journey",
+      "ta": "எமது பயணத்தை அறிக",
+      "tag": "span"
+    },
+    {
+      "key": "text.home.007",
+      "section": "home",
+      "si": "පිරිවෙන හඳුනාගන්න",
+      "en": "Discover the pirivena",
+      "ta": "பிரிவெனாவை அறிந்துகொள்ளுங்கள்",
+      "tag": "span"
+    },
+    {
+      "key": "text.home.008",
+      "section": "home",
+      "si": "පහළට ගොස් ගවේෂණය කරන්න",
+      "en": "SCROLL TO DISCOVER",
+      "ta": "கீழே சென்று அறிந்துகொள்ளுங்கள்",
+      "tag": "span"
+    },
+    {
+      "key": "text.home.009",
+      "section": "home",
+      "si": "පරපුරෙන් පරපුරට දිවෙන සසුන් මෙහෙවර",
+      "en": "A living lineage of Buddhist learning",
+      "ta": "தலைமுறை தலைமுறையாகத் தொடரும் சமயப் பணி",
+      "tag": "span"
+    },
+    {
+      "key": "text.home.010",
+      "section": "home",
+      "si": "තිස්සපෑල",
+      "en": "TISSAPELA",
+      "ta": "திஸ்ஸபேல",
+      "tag": "span"
+    },
+    {
+      "key": "text.general.002",
+      "section": "general",
+      "si": "ආරම්භක වසර",
+      "en": "Founded",
+      "ta": "நிறுவப்பட்ட ஆண்டு",
+      "tag": "span"
+    },
+    {
+      "key": "text.general.003",
+      "section": "general",
+      "si": "මහා පිරිවෙනක් වූ වසර",
+      "en": "Elevated to Maha Pirivena",
+      "ta": "மகா பிரிவெனாவாக உயர்ந்த ஆண்டு",
+      "tag": "span"
+    },
+    {
+      "key": "text.general.004",
+      "section": "general",
+      "si": "ධර්ම ශාස්ත්‍රීය මෙහෙවරේ වසර",
+      "en": "Years of learning & service",
+      "ta": "சமய மற்றும் கல்விச் சேவையின் ஆண்டுகள்",
+      "tag": "span"
+    },
+    {
+      "key": "text.general.005",
+      "section": "general",
+      "si": "67 වන සංවත්සර සැමරුම",
+      "en": "67th anniversary",
+      "ta": "67ஆம் ஆண்டு நிறைவு விழா",
+      "tag": "span"
+    },
+    {
+      "key": "text.history.001",
+      "section": "history",
+      "si": "ඉතිහාසය ලියූ අභිමානවත් ගමන්මඟ",
+      "en": "A journey written in history",
+      "ta": "வரலாற்றில் பதிந்த பெருமைமிகு பயணம்",
+      "tag": "h2"
+    },
+    {
+      "key": "text.history.002",
+      "section": "history",
+      "si": "එදා කුඩා පැළයෙන් ඇරඹි ධර්ම ශාස්ත්‍රීය සේවාව අද දක්වා විහිදුණු ආකාරය.",
+      "en": "Trace the milestones that shaped a humble beginning into a lasting center of Buddhist education.",
+      "ta": "சிறிய தொடக்கமாக மலர்ந்த பௌத்தக் கல்விச் சேவை இன்று வரை எவ்வாறு வளர்ந்துள்ளது என்பதை அறிந்துகொள்ளுங்கள்.",
+      "tag": "p"
+    },
+    {
+      "key": "text.history.003",
+      "section": "history",
+      "si": "ඇරඹුම",
+      "en": "Foundation",
+      "ta": "தொடக்கம்",
+      "tag": "small"
+    },
+    {
+      "key": "text.history.004",
+      "section": "history",
+      "si": "උසස්වීම",
+      "en": "Recognition",
+      "ta": "உயர்வு",
+      "tag": "small"
+    },
+    {
+      "key": "text.history.005",
+      "section": "history",
+      "si": "ස්වර්ණ ජයන්තිය",
+      "en": "Golden jubilee",
+      "ta": "பொன்விழா",
+      "tag": "small"
+    },
+    {
+      "key": "text.history.006",
+      "section": "history",
+      "si": "ශාස්ත්‍රීය මෙහෙවර",
+      "en": "Scholarship",
+      "ta": "கல்விப் பணி",
+      "tag": "small"
+    },
+    {
+      "key": "text.history.007",
+      "section": "history",
+      "si": "67 වසරක අභිමානය",
+      "en": "67 years",
+      "ta": "67 ஆண்டு பாரம்பரியம்",
+      "tag": "small"
+    },
+    {
+      "key": "text.general.006",
+      "section": "general",
+      "si": "විනයෙන් සැකසුණු සිත් — දැනුමෙන් පෝෂිත ජීවිත — සමාජයට ආලෝකයක්.",
+      "en": "Minds shaped by discipline. Lives enriched by knowledge. A light for the community.",
+      "ta": "ஒழுக்கத்தால் பண்பட்ட மனங்கள் — அறிவால் வளமான வாழ்வுகள் — சமூகத்திற்கு ஒளி.",
+      "tag": "p"
+    },
+    {
+      "key": "text.about.001",
+      "section": "about",
+      "si": "පරපුරෙන් පරපුරට නොනිවෙන දහම් පහනක්.",
+      "en": "A timeless light of learning across generations.",
+      "ta": "தலைமுறைகள் கடந்தும் அணையாத தர்ம விளக்கு.",
+      "tag": "h2"
+    },
+    {
+      "key": "text.about.002",
+      "section": "about",
+      "si": "තිස්සපෑල විද්‍යාකීර්ති මහා පිරිවෙන යනු දහම් දැනුම, භාෂා ශාස්ත්‍රය, විනය සහ සමාජ සත්කාරය එක් කළ ඓතිහාසික පිරිවෙන් අධ්‍යාපන මධ්‍යස්ථානයකි. එහි ආරම්භය 1959 දක්වා දිව යයි.",
+      "en": "Vidyakeerthi Maha Pirivena in Tissapela is a longstanding center of Buddhist education, combining Dhamma, classical study, monastic discipline and service to society. Its story began in 1959.",
+      "ta": "திஸ்ஸபேல வித்யாகீர்த்தி மகா பிரிவெனா என்பது தர்மக் கல்வி, மொழி மற்றும் சாஸ்திரக் கல்வி, ஒழுக்கம், சமூகச் சேவை ஆகியவற்றை ஒருங்கிணைக்கும் பாரம்பரிய பௌத்தக் கல்வி நிலையமாகும். இதன் வரலாறு 1959 ஆம் ஆண்டு தொடங்குகிறது.",
+      "tag": "p"
+    },
+    {
+      "key": "text.about.003",
+      "section": "about",
+      "si": "බෞද්ධ අධ්‍යාපනයට අමතරව ආගමික, ශාස්ත්‍රීය සහ සංස්කෘතික සේවාවන් රැසක් ඔස්සේ පිරිවෙන ප්‍රදේශයටත් සම්බුද්ධ ශාසනයටත් තම මෙහෙවර ඉටු කරයි.",
+      "en": "Beyond formal education, the institution supports religious, cultural and scholarly activities for the surrounding community and the Buddhist tradition.",
+      "ta": "பௌத்தக் கல்வியுடன் சமய, கல்வி, பண்பாட்டு நிகழ்வுகள் மூலமாக உள்ளூர் சமூகத்திற்கும் புத்த சாசனத்திற்கும் இந்நிலையம் சேவையாற்றி வருகிறது.",
+      "tag": "p"
+    },
+    {
+      "key": "text.about.004",
+      "section": "about",
+      "si": "විද්‍යාකීර්ති මහා පිරිවෙන",
+      "en": "Vidyakeerthi Maha Pirivena",
+      "ta": "வித்யாகீர்த்தி மகா பிரிவெனா",
+      "tag": "strong"
+    },
+    {
+      "key": "text.education.001",
+      "section": "education",
+      "si": "දැනුමෙන් නැණවත්, විනයෙන් ගුණවත්",
+      "en": "Knowledge guided by discipline",
+      "ta": "அறிவால் உயர்ந்து, ஒழுக்கத்தால் சிறந்து",
+      "tag": "h2"
+    },
+    {
+      "key": "text.education.002",
+      "section": "education",
+      "si": "අධ්‍යාපනය දැනුම පමණක් නොව යහපත් චරිතයක් ගොඩනගන ගමනක් බව අපි විශ්වාස කරමු.",
+      "en": "Education is more than gaining knowledge — it is the formation of character and a life of purpose.",
+      "ta": "கல்வி என்பது அறிவைப் பெறுவது மட்டுமல்ல; நல்ல பண்புகளையும் ஒழுக்கத்தையும் வளர்க்கும் பயணம் என்பதே எமது நம்பிக்கை.",
+      "tag": "p"
+    },
+    {
+      "key": "text.education.003",
+      "section": "education",
+      "si": "බෞද්ධ හා ශාස්ත්‍රීය අධ්‍යාපනය",
+      "en": "Buddhist & classical studies",
+      "ta": "பௌத்த மற்றும் சாஸ்திரக் கல்வி",
+      "tag": "h3"
+    },
+    {
+      "key": "text.education.004",
+      "section": "education",
+      "si": "ධර්මය, භාෂාව සහ ශාස්ත්‍රීය අධ්‍යයනය තුළින් දැනුමත් විචාරශීලී චින්තනයත් පෝෂණය කිරීම.",
+      "en": "Nurturing knowledge and thoughtful inquiry through Dhamma, languages and classical learning.",
+      "ta": "தர்மம், மொழிகள் மற்றும் சாஸ்திரக் கல்வியின் வழியாக அறிவையும் ஆழ்ந்த சிந்தனையையும் வளர்த்தல்.",
+      "tag": "p"
+    },
+    {
+      "key": "text.education.005",
+      "section": "education",
+      "si": "විනය හා ආධ්‍යාත්මික සංවර්ධනය",
+      "en": "Discipline & spiritual growth",
+      "ta": "ஒழுக்கமும் ஆன்மிக வளர்ச்சியும்",
+      "tag": "h3"
+    },
+    {
+      "key": "text.education.006",
+      "section": "education",
+      "si": "සීලය, විනය, ආචාරධර්ම සහ බෞද්ධ සාරධර්ම මුල් කරගත් පැවිදි ජීවිතය ගොඩනැගීම.",
+      "en": "Cultivating a monastic life grounded in discipline, virtue and Buddhist values.",
+      "ta": "சீலம், ஒழுக்கம், நன்னெறி மற்றும் பௌத்த விழுமியங்களை அடிப்படையாகக் கொண்ட துறவற வாழ்வை வளர்த்தல்.",
+      "tag": "p"
+    },
+    {
+      "key": "text.education.007",
+      "section": "education",
+      "si": "සමාජ මෙහෙවර හා නායකත්වය",
+      "en": "Community & leadership",
+      "ta": "சமூகச் சேவையும் தலைமைத்துவமும்",
+      "tag": "h3"
+    },
+    {
+      "key": "text.education.008",
+      "section": "education",
+      "si": "ශිෂ්‍ය භික්ෂූන් වහන්සේලාගේ දක්ෂතා, සේවා ආකල්ප සහ සමාජ වගකීම දියුණු කරන කටයුතු.",
+      "en": "Encouraging students' talents, service-mindedness and responsibility to the community.",
+      "ta": "மாணவ பிக்குகளின் திறன்கள், சேவை மனப்பான்மை மற்றும் சமூகப் பொறுப்பை வளர்க்கும் செயற்பாடுகள்.",
+      "tag": "p"
+    },
+    {
+      "key": "text.leadership.001",
+      "section": "leadership",
+      "si": "පිරිවෙන ගොඩනැගූ ගුරු පරපුර",
+      "en": "The teachers who shaped our legacy",
+      "ta": "பிரிவெனாவை வளர்த்த ஆசிரியர் பரம்பரை",
+      "tag": "h2"
+    },
+    {
+      "key": "text.leadership.002",
+      "section": "leadership",
+      "si": "ආරම්භයේ සිට වර්තමානය දක්වා ධර්ම ශාස්ත්‍රීය මෙහෙවරට දිවි කැප කළ ගුරු පරපුර සිහිපත් කරමු.",
+      "en": "Honouring generations of teachers who dedicated themselves to the mission of Buddhist education.",
+      "ta": "ஆரம்பம் முதல் இன்றுவரை பௌத்தக் கல்விப் பணிக்காகத் தங்களை அர்ப்பணித்த ஆசிரியர் பரம்பரையினரை நன்றியுடன் நினைவுகூர்வோம்.",
+      "tag": "p"
+    },
+    {
+      "key": "text.leadership.003",
+      "section": "leadership",
+      "si": "ආරම්භක ගුරු පරපුර",
+      "en": "Founding generation",
+      "ta": "நிறுவனர் ஆசிரியர் பரம்பரை",
+      "tag": "h3"
+    },
+    {
+      "key": "text.leadership.004",
+      "section": "leadership",
+      "si": "පිරිවෙනේ මුල් අඩිතාලම දැමූ ආදි කර්තෘ පරපුර",
+      "en": "The earliest teachers who laid the foundation",
+      "ta": "பிரிவெனாவின் அடித்தளத்தை அமைத்த முன்னோடிகள்",
+      "tag": "p"
+    },
+    {
+      "key": "text.leadership.005",
+      "section": "leadership",
+      "si": "ශාසනික උරුමය",
+      "en": "Spiritual heritage",
+      "ta": "சமயப் பாரம்பரியம்",
+      "tag": "h3"
+    },
+    {
+      "key": "text.leadership.006",
+      "section": "leadership",
+      "si": "අඛණ්ඩව පවත්වාගත් ධර්ම ශාස්ත්‍රීය සම්ප්‍රදාය",
+      "en": "A continuing tradition of monastic scholarship",
+      "ta": "தொடர்ந்து பேணப்பட்டு வரும் சமயக் கல்வி மரபு",
+      "tag": "p"
+    },
+    {
+      "key": "text.leadership.007",
+      "section": "leadership",
+      "si": "අධ්‍යාපන නායකත්වය",
+      "en": "Academic guidance",
+      "ta": "கல்வித் தலைமைத்துவம்",
+      "tag": "h3"
+    },
+    {
+      "key": "text.leadership.008",
+      "section": "leadership",
+      "si": "විද්‍යාකීර්ති ගමන්මඟට දිරි දුන් ආචාර්ය පරපුර",
+      "en": "Educators who encouraged the pirivena's progress",
+      "ta": "வித்யாகீர்த்தியின் வளர்ச்சிக்கு ஊக்கமளித்த ஆசிரியர்கள்",
+      "tag": "p"
+    },
+    {
+      "key": "text.leadership.009",
+      "section": "leadership",
+      "si": "වර්තමාන මෙහෙවර",
+      "en": "Continuing the mission",
+      "ta": "இன்றைய சேவை",
+      "tag": "h3"
+    },
+    {
+      "key": "text.leadership.010",
+      "section": "leadership",
+      "si": "නව පරපුරට දහම් හා දැනුම සම්ප්‍රේෂණය කරන අඛණ්ඩ සේවාව",
+      "en": "Carrying learning and Dhamma forward to new generations",
+      "ta": "புதிய தலைமுறைக்குத் தர்மத்தையும் அறிவையும் வழங்கும் தொடர்ச்சியான பணி",
+      "tag": "p"
+    },
+    {
+      "key": "text.leadership.011",
+      "section": "leadership",
+      "si": "ඡායාරූප හා ඓතිහාසික විස්තර: පිරිවෙනේ 1959–2026 විද්‍යාකීර්ති සංවත්සර ලේඛනය.",
+      "en": "Photographs and historical information: Vidyakeerthi 1959–2026 commemorative document.",
+      "ta": "புகைப்படங்களும் வரலாற்றுத் தகவல்களும்: பிரிவெனாவின் 1959–2026 வித்யாகீர்த்தி நினைவு மலர்.",
+      "tag": "p"
+    },
+    {
+      "key": "text.achievements.001",
+      "section": "achievements",
+      "si": "කැපවීමට ලැබුණු ගෞරවය.",
+      "en": "Recognition earned through dedication.",
+      "ta": "அர்ப்பணிப்புக்குக் கிடைத்த அங்கீகாரம்.",
+      "tag": "h2"
+    },
+    {
+      "key": "text.achievements.002",
+      "section": "achievements",
+      "si": "පිරිවෙනේ අධ්‍යාපනික, ආගමික හා සමාජ මෙහෙවර සම්මාන, ඇගයීම් සහ ශිෂ්‍ය ජයග්‍රහණ රැසකින් සනිටුහන් වී ඇත.",
+      "en": "The pirivena's work in education, religion and community life has been recognized through awards, distinctions and student achievements.",
+      "ta": "பிரிவெனாவின் கல்வி, சமய மற்றும் சமூகச் சேவைகள் பல விருதுகள், பாராட்டுகள் மற்றும் மாணவர்களின் சாதனைகளால் சிறப்பிக்கப்பட்டுள்ளன.",
+      "tag": "p"
+    },
+    {
+      "key": "text.achievements.003",
+      "section": "achievements",
+      "si": "ජාතික ඵලදායිතා සම්මාන හා ඇගයීම්",
+      "en": "National productivity awards and recognition",
+      "ta": "தேசிய உற்பத்தித்திறன் விருதுகளும் பாராட்டுகளும்",
+      "tag": "p"
+    },
+    {
+      "key": "text.achievements.004",
+      "section": "achievements",
+      "si": "පිරිවෙන් අධ්‍යාපන කාර්යසාධන ඇගයීම්",
+      "en": "Recognition for pirivena educational performance",
+      "ta": "பிரிவெனா கல்விச் செயல்திறன் பாராட்டுகள்",
+      "tag": "p"
+    },
+    {
+      "key": "text.achievements.005",
+      "section": "achievements",
+      "si": "වාර්ෂික ශිෂ්‍ය හා දහම් පාසල් ජයග්‍රහණ",
+      "en": "Student and Dhamma-school achievements",
+      "ta": "மாணவர்கள் மற்றும் அறநெறிப் பாடசாலையின் வருடாந்தச் சாதனைகள்",
+      "tag": "p"
+    },
+    {
+      "key": "text.achievements.006",
+      "section": "achievements",
+      "si": "ජයග්‍රහණ ඡායාරූප බලන්න",
+      "en": "See the achievements gallery",
+      "ta": "சாதனைகளின் படங்களைக் காண்க",
+      "tag": "span"
+    },
+    {
+      "key": "text.achievements.007",
+      "section": "achievements",
+      "si": "අභිමානවත් ජයග්‍රහණ",
+      "en": "A legacy of achievement",
+      "ta": "பெருமைமிகு சாதனைகள்",
+      "tag": "strong"
+    },
+    {
+      "key": "text.achievements.008",
+      "section": "achievements",
+      "si": "සැබෑ ජයග්‍රහණ — ඡායාරූප එකතුව",
+      "en": "The awards — an authentic photo collection",
+      "ta": "உண்மையான சாதனைகள் — புகைப்படத் தொகுப்பு",
+      "tag": "h3"
+    },
+    {
+      "key": "text.achievements.009",
+      "section": "achievements",
+      "si": "සංවත්සර ලේඛනයේ සම්මාන පිටු විශාල කර බැලීමට ඡායාරූපයක් ඔබන්න.",
+      "en": "Tap a photograph to explore the award pages from the commemorative publication.",
+      "ta": "நினைவு ஆவணத்திலுள்ள விருது பக்கங்களைப் பெரிதாக்கப் புகைப்படத்தைத் தொடவும்.",
+      "tag": "p"
+    },
+    {
+      "key": "text.achievements.010",
+      "section": "achievements",
+      "si": "සම්මාන සටහන්",
+      "en": "Award records",
+      "ta": "விருதுப் பதிவுகள்",
+      "tag": "strong"
+    },
+    {
+      "key": "text.achievements.011",
+      "section": "achievements",
+      "si": "ජයග්‍රහණ කුසලාන",
+      "en": "Achievement trophies",
+      "ta": "சாதனைக் கோப்பைகள்",
+      "tag": "strong"
+    },
+    {
+      "key": "text.achievements.012",
+      "section": "achievements",
+      "si": "ශිෂ්‍ය දක්ෂතා",
+      "en": "Student distinctions",
+      "ta": "மாணவர் சிறப்புகள்",
+      "tag": "strong"
+    },
+    {
+      "key": "text.achievements.013",
+      "section": "achievements",
+      "si": "නවතම ඇගයීම්",
+      "en": "Recent recognition",
+      "ta": "அண்மைய பாராட்டுகள்",
+      "tag": "strong"
+    },
+    {
+      "key": "text.gallery.001",
+      "section": "gallery",
+      "si": "කාලයේ රැඳුණු සොඳුරු මතක සටහන්",
+      "en": "Moments worth remembering",
+      "ta": "காலம் தந்த இனிய நினைவுகள்",
+      "tag": "h2"
+    },
+    {
+      "key": "text.gallery.002",
+      "section": "gallery",
+      "si": "වැඩසටහන්, පරිත්‍යාග, ශිෂ්‍ය ක්‍රියාකාරකම් සහ 2026 සංවත්සර ගමන්මඟේ සජීවී දසුන්.",
+      "en": "An authentic glimpse into events, student life, acts of service and the 2026 commemoration.",
+      "ta": "நிகழ்வுகள், நன்கொடைகள், மாணவர்களின் செயற்பாடுகள் மற்றும் 2026 ஆம் ஆண்டு நினைவு நிகழ்ச்சிகளின் உண்மையான காட்சிகள்.",
+      "tag": "p"
+    },
+    {
+      "key": "text.gallery.003",
+      "section": "gallery",
+      "si": "අධ්‍යාපන චාරිකාව",
+      "en": "Educational visit",
+      "ta": "கல்விச் சுற்றுலா",
+      "tag": "span"
+    },
+    {
+      "key": "text.gallery.004",
+      "section": "gallery",
+      "si": "සමාජ සත්කාර",
+      "en": "Community service",
+      "ta": "சமூகச் சேவை",
+      "tag": "span"
+    },
+    {
+      "key": "text.gallery.005",
+      "section": "gallery",
+      "si": "2026 වැඩසටහන්",
+      "en": "2026 events",
+      "ta": "2026 நிகழ்வுகள்",
+      "tag": "span"
+    },
+    {
+      "key": "text.gallery.006",
+      "section": "gallery",
+      "si": "පරිත්‍යාග",
+      "en": "Contributions",
+      "ta": "நன்கொடைகள்",
+      "tag": "span"
+    },
+    {
+      "key": "text.gallery.007",
+      "section": "gallery",
+      "si": "2026 ජයග්‍රහණ",
+      "en": "2026 achievements",
+      "ta": "2026 சாதனைகள்",
+      "tag": "span"
+    },
+    {
+      "key": "text.gallery.008",
+      "section": "gallery",
+      "si": "පරිසර සත්කාර",
+      "en": "Environmental care",
+      "ta": "சுற்றுச்சூழல் பாதுகாப்பு",
+      "tag": "span"
+    },
+    {
+      "key": "text.vision.001",
+      "section": "vision",
+      "si": "උරුමය සුරකිමින්, නව යුගයට.",
+      "en": "Honouring tradition. Embracing tomorrow.",
+      "ta": "மரபைப் பேணி, புதிய யுகத்தை நோக்கி.",
+      "tag": "h2"
+    },
+    {
+      "key": "text.vision.002",
+      "section": "vision",
+      "si": "2026 සංවත්සර ලේඛනයේ සඳහන් අනාගත අරමුණු අතර ඩිජිටල් පුස්තකාලය, Online ධර්ම දේශනා සහ නව අධ්‍යාපන අවස්ථා දක්නට ලැබේ. මේවා ඉදිරි සැලසුම් ලෙස ඉදිරිපත් කර ඇත.",
+      "en": "The 2026 commemorative publication describes plans for a digital library, online Dhamma talks and new educational opportunities. These are aspirations for the future, not yet-listed live services.",
+      "ta": "2026 ஆம் ஆண்டு நினைவு மலரில் மின்னணு நூலகம், இணையவழி தர்ம உரைகள் மற்றும் புதிய கல்வி வாய்ப்புகள் ஆகியவை எதிர்கால நோக்கங்களாகக் குறிப்பிடப்பட்டுள்ளன. இவை இன்னும் செயல்பாட்டில் உள்ள சேவைகள் அல்ல; திட்டமிடப்பட்ட முயற்சிகளாகும்.",
+      "tag": "p"
+    },
+    {
+      "key": "text.vision.003",
+      "section": "vision",
+      "si": "ඩිජිටල් පුස්තකාලයක්",
+      "en": "Digital library",
+      "ta": "மின்னணு நூலகம்",
+      "tag": "strong"
+    },
+    {
+      "key": "text.vision.004",
+      "section": "vision",
+      "si": "ඉදිරි සැලසුම",
+      "en": "Planned",
+      "ta": "எதிர்காலத் திட்டம்",
+      "tag": "small"
+    },
+    {
+      "key": "text.vision.005",
+      "section": "vision",
+      "si": "Online ධර්ම දේශනා",
+      "en": "Online Dhamma talks",
+      "ta": "இணையவழி தர்ம உரைகள்",
+      "tag": "strong"
+    },
+    {
+      "key": "text.vision.006",
+      "section": "vision",
+      "si": "ඉදිරි සැලසුම",
+      "en": "Planned",
+      "ta": "எதிர்காலத் திட்டம்",
+      "tag": "small"
+    },
+    {
+      "key": "text.vision.007",
+      "section": "vision",
+      "si": "නව අධ්‍යාපන අවස්ථා",
+      "en": "New learning opportunities",
+      "ta": "புதிய கல்வி வாய்ப்புகள்",
+      "tag": "strong"
+    },
+    {
+      "key": "text.vision.008",
+      "section": "vision",
+      "si": "ඉදිරි සැලසුම",
+      "en": "Planned",
+      "ta": "எதிர்காலத் திட்டம்",
+      "tag": "small"
+    },
+    {
+      "key": "text.guide.001",
+      "section": "guide",
+      "si": "පිරිවෙන හඳුනාගනිමු — පියවරෙන් පියවර.",
+      "en": "Explore the grounds, step by step.",
+      "ta": "பிரிவெனாவை அறிந்துகொள்வோம் — படிப்படியாக.",
+      "tag": "h2"
+    },
+    {
+      "key": "text.guide.002",
+      "section": "guide",
+      "si": "ප්‍රධාන පිවිසුමේ QR කේතයෙන් පිවිස, ඔබට අවශ්‍ය ස්ථානය තෝරා වීඩියෝ මඟපෙන්වීමක් ලබාගැනීම සඳහා සූදානම් වන විශේෂ අංශය.",
+      "en": "A planned QR-based guide: scan at the entrance, choose a destination and follow a walking-route video when available.",
+      "ta": "முதன்மை நுழைவாயிலிலுள்ள QR குறியீட்டை ஸ்கேன் செய்து, செல்ல வேண்டிய இடத்தைத் தேர்ந்தெடுத்து வழிகாட்டும் காணொளியைப் பார்க்கும் வசதிக்காக உருவாகும் சிறப்புப் பகுதி.",
+      "tag": "p"
+    },
+    {
+      "key": "text.guide.003",
+      "section": "guide",
+      "si": "ආවාස ගෙය",
+      "en": "Monks' residence",
+      "ta": "பிக்குகள் தங்குமிடம்",
+      "tag": "h3"
+    },
+    {
+      "key": "text.guide.004",
+      "section": "guide",
+      "si": "ප්‍රධාන පිවිසුමේ සිට ආවාස ගෙයට මඟ.",
+      "en": "Directions from the main entrance to the residence.",
+      "ta": "முதன்மை நுழைவாயிலிலிருந்து பிக்குகள் தங்குமிடத்திற்கான பாதை.",
+      "tag": "p"
+    },
+    {
+      "key": "text.guide.005",
+      "section": "guide",
+      "si": "වීඩියෝව ළඟදීම",
+      "en": "Video coming soon",
+      "ta": "வழிகாட்டும் காணொளி விரைவில்",
+      "tag": "span"
+    },
+    {
+      "key": "text.guide.006",
+      "section": "guide",
+      "si": "පිරිවෙන",
+      "en": "Pirivena",
+      "ta": "பிரிவெனா",
+      "tag": "h3"
+    },
+    {
+      "key": "text.guide.007",
+      "section": "guide",
+      "si": "අධ්‍යාපන ගොඩනැගිල්ලට පිවිසෙන මාර්ගය.",
+      "en": "Find the learning premises.",
+      "ta": "கல்விக் கட்டடத்திற்குச் செல்லும் பாதை.",
+      "tag": "p"
+    },
+    {
+      "key": "text.guide.008",
+      "section": "guide",
+      "si": "වීඩියෝව ළඟදීම",
+      "en": "Video coming soon",
+      "ta": "வழிகாட்டும் காணொளி விரைவில்",
+      "tag": "span"
+    },
+    {
+      "key": "text.guide.009",
+      "section": "guide",
+      "si": "දාන ශාලාව",
+      "en": "Dining hall",
+      "ta": "உணவுக்கூடம்",
+      "tag": "h3"
+    },
+    {
+      "key": "text.guide.010",
+      "section": "guide",
+      "si": "දාන ශාලාව වෙත පහසු මඟපෙන්වීම.",
+      "en": "A route to the dining hall.",
+      "ta": "உணவுக்கூடத்திற்குச் செல்லும் வழி.",
+      "tag": "p"
+    },
+    {
+      "key": "text.guide.011",
+      "section": "guide",
+      "si": "වීඩියෝව ළඟදීම",
+      "en": "Video coming soon",
+      "ta": "வழிகாட்டும் காணொளி விரைவில்",
+      "tag": "span"
+    },
+    {
+      "key": "text.guide.012",
+      "section": "guide",
+      "si": "වැසිකිළිය",
+      "en": "Restrooms",
+      "ta": "கழிப்பறை",
+      "tag": "h3"
+    },
+    {
+      "key": "text.guide.013",
+      "section": "guide",
+      "si": "අමුත්තන් සඳහා පහසුකම් සොයාගන්න.",
+      "en": "Locate the visitor restrooms.",
+      "ta": "வருகையாளர்களுக்கான வசதிகளைக் கண்டறியுங்கள்.",
+      "tag": "p"
+    },
+    {
+      "key": "text.guide.014",
+      "section": "guide",
+      "si": "වීඩියෝව ළඟදීම",
+      "en": "Video coming soon",
+      "ta": "வழிகாட்டும் காணொளி விரைவில்",
+      "tag": "span"
+    },
+    {
+      "key": "text.archive.001",
+      "section": "archive",
+      "si": "සම්පූර්ණ ඉතිහාසය කියවන්න.",
+      "en": "Read the complete historical record.",
+      "ta": "முழுமையான வரலாற்றைப் படியுங்கள்.",
+      "tag": "h2"
+    },
+    {
+      "key": "text.archive.002",
+      "section": "archive",
+      "si": "1959–2026 විද්‍යාකීර්ති සංවත්සර ලේඛනය — පිටු 28ක මුල් PDF පිටපත.",
+      "en": "The original 28-page Vidyakeerthi 1959–2026 commemorative document (Sinhala).",
+      "ta": "1959–2026 வித்யாகீர்த்தி நினைவு மலரின் அசல் 28 பக்க PDF ஆவணம்.",
+      "tag": "p"
+    },
+    {
+      "key": "text.archive.003",
+      "section": "archive",
+      "si": "PDF එක කියවන්න",
+      "en": "Open the PDF",
+      "ta": "PDF ஆவணத்தைப் படிக்க",
+      "tag": "span"
+    },
+    {
+      "key": "text.affiliates.001",
+      "section": "affiliates",
+      "si": "අපේ සසුන් සේවාවේ අනුබද්ධ ආයතන",
+      "en": "Our affiliated religious institutions",
+      "ta": "எமது சமயச் சேவையுடன் இணைந்த நிறுவனங்கள்",
+      "tag": "h2"
+    },
+    {
+      "key": "text.affiliates.002",
+      "section": "affiliates",
+      "si": "",
+      "en": "Explore ten religious locations affiliated with the pirivena temple, alongside the original video and list provided by the institution.",
+      "ta": "",
+      "tag": "p"
+    },
+    {
+      "key": "text.affiliates.003",
+      "section": "affiliates",
+      "si": "අනුබද්ධ ස්ථාන — වීඩියෝ චාරිකාව",
+      "en": "Affiliated places — a video journey",
+      "ta": "இணைந்த இடங்கள் — காணொளிப் பயணம்",
+      "tag": "strong"
+    },
+    {
+      "key": "text.affiliates.004",
+      "section": "affiliates",
+      "si": "වීඩියෝව ඔබන විට පමණක් දත්ත භාවිත වේ.",
+      "en": "The video loads only when you choose to play it.",
+      "ta": "நீங்கள் இயக்கும்போது மட்டுமே காணொளித் தரவு பயன்படுத்தப்படும்.",
+      "tag": "small"
+    },
+    {
+      "key": "text.affiliates.005",
+      "section": "affiliates",
+      "si": "මුල් ලැයිස්තුව විශාල කර බැලීමට පින්තූරය ඔබන්න.",
+      "en": "Tap the original document to enlarge and read it.",
+      "ta": "அசல் பட்டியலைப் பெரிதாக்கப் படத்தைத் தொடவும்.",
+      "tag": "p"
+    },
+    {
+      "key": "text.affiliates.006",
+      "section": "affiliates",
+      "si": "බැඳුණු පින්බිම් 10ක්",
+      "en": "Ten places of service",
+      "ta": "இணைந்த பத்து புனிதத் தலங்கள்",
+      "tag": "h3"
+    },
+    {
+      "key": "text.affiliates.007",
+      "section": "affiliates",
+      "si": "හඟුරන්කෙත විද්‍යාකීර්ති මහා පිරිවෙන් විහාරස්ථානය",
+      "en": "Hanguranketha Vidyakeerthi Maha Piriven Viharasthanaya",
+      "ta": "ஹங்குரன்கெத்த வித்யாகீர்த்தி மகா பிரிவெனா விகாரை",
+      "tag": "span"
+    },
+    {
+      "key": "text.affiliates.008",
+      "section": "affiliates",
+      "si": "සඟරාජගම බෞද්ධ මධ්‍යස්ථානය",
+      "en": "Sangarajagama Buddhist Centre",
+      "ta": "சங்கராஜகம பௌத்த நிலையம்",
+      "tag": "span"
+    },
+    {
+      "key": "text.affiliates.009",
+      "section": "affiliates",
+      "si": "ඇදිරිබැද්ද බෝධි රුක්ඛාරාමය",
+      "en": "Adiribedda Bodhi Rukkharamaya",
+      "ta": "அதிரிபெத்த போதி ருக்காராமய",
+      "tag": "span"
+    },
+    {
+      "key": "text.affiliates.010",
+      "section": "affiliates",
+      "si": "මඩකලපුව ජයන්තිපුර බෞද්ධ මධ්‍යස්ථානය",
+      "en": "Batticaloa Jayanthipura Buddhist Centre",
+      "ta": "மட்டக்களப்பு ஜயந்திபுர பௌத்த நிலையம்",
+      "tag": "span"
+    },
+    {
+      "key": "text.affiliates.011",
+      "section": "affiliates",
+      "si": "හඟුරන්කෙත පොත්ගුල් මාලිගා විහාරස්ථානය",
+      "en": "Hanguranketha Pothgul Maliga Viharasthanaya",
+      "ta": "ஹங்குரன்கெத்த பொத்குல் மாளிகை விகாரை",
+      "tag": "span"
+    },
+    {
+      "key": "text.affiliates.012",
+      "section": "affiliates",
+      "si": "හඟුරන්කෙත දියතිලකපුර බෞද්ධ මධ්‍යස්ථානය",
+      "en": "Hanguranketha Diyathilakapura Buddhist Centre",
+      "ta": "ஹங்குரன்கெத்த தியதிலகபுர பௌத்த நிலையம்",
+      "tag": "span"
+    },
+    {
+      "key": "text.affiliates.013",
+      "section": "affiliates",
+      "si": "පෙතියගොඩ පුරාණ විහාරය",
+      "en": "Pethiyagoda Ancient Temple",
+      "ta": "பெத்தியகொட பழமையான விகாரை",
+      "tag": "span"
+    },
+    {
+      "key": "text.affiliates.014",
+      "section": "affiliates",
+      "si": "කල්ගමුව උඩුගම ශ්‍රී ශෛල බිම්බාරාමය",
+      "en": "Kalgamuwa Udugama Sri Shaila Bimbaramaya",
+      "ta": "கல்கமுவ உடுகம ஸ்ரீ ஷைல பிம்பாராமய",
+      "tag": "span"
+    },
+    {
+      "key": "text.affiliates.015",
+      "section": "affiliates",
+      "si": "දෙණිකේ අංගොඩවෙල ශ්‍රී අභයාරාමය",
+      "en": "Denike Angodawela Sri Abhayaramaya",
+      "ta": "தெனிகே அங்கொடவெல ஸ்ரீ அபயாராமய",
+      "tag": "span"
+    },
+    {
+      "key": "text.affiliates.016",
+      "section": "affiliates",
+      "si": "හඟුරන්කෙත අලවතුගම (පහළගම) විහාරස්ථානය",
+      "en": "Hanguranketha Alawathugama (Pahalagama) Temple",
+      "ta": "ஹங்குரன்கெத்த அலவத்துகம (பஹலகம) விகாரை",
+      "tag": "span"
+    },
+    {
+      "key": "text.location.001",
+      "section": "location",
+      "si": "තිස්සපෑල පින්බිමට පැමිණෙන්න.",
+      "en": "Find your way to Tissapela.",
+      "ta": "திஸ்ஸபேல புனிதத் தலத்திற்கு வருக.",
+      "tag": "h2"
+    },
+    {
+      "key": "text.location.002",
+      "section": "location",
+      "si": "තිස්සපෑල විද්‍යාකීර්ති මහා පිරිවෙන, පුස්සලමංකඩ පාර, හඟුරන්කෙත. Google Maps හරහා පහසුවෙන් මඟ සොයාගන්න.",
+      "en": "Vidyakeerthi Maha Pirivena, Pussalamankada Road, Hanguranketha. Get directions to our grounds using Google Maps.",
+      "ta": "திஸ்ஸபேல வித்யாகீர்த்தி மகா பிரிவெனா, புஸ்ஸலமங்கட வீதி, ஹங்குரன்கெத்த. Google Maps மூலம் வழியைக் கண்டறியுங்கள்.",
+      "tag": "p"
+    },
+    {
+      "key": "text.location.003",
+      "section": "location",
+      "si": "ලිපිනය",
+      "en": "ADDRESS",
+      "ta": "முகவரி",
+      "tag": "small"
+    },
+    {
+      "key": "text.location.004",
+      "section": "location",
+      "si": "Google Maps මාර්ගය බලන්න",
+      "en": "Get directions on Google Maps",
+      "ta": "Google Maps வழிகாட்டல்",
+      "tag": "span"
+    },
+    {
+      "key": "text.footer.001",
+      "section": "footer",
+      "si": "විද්‍යාකීර්ති මහා පිරිවෙන",
+      "en": "Vidyakeerthi Maha Pirivena",
+      "ta": "வித்யாகீர்த்தி மகா பிரிவெனா",
+      "tag": "h2"
+    },
+    {
+      "key": "text.footer.002",
+      "section": "footer",
+      "si": "තිස්සපෑල, හඟුරන්කෙත · ශ්‍රී ලංකාව",
+      "en": "Tissapela, Hanguranketha · Sri Lanka",
+      "ta": "திஸ்ஸபேல, ஹங்குரன்கெத்த · இலங்கை",
+      "tag": "p"
+    },
+    {
+      "key": "text.footer.003",
+      "section": "footer",
+      "si": "ධර්මය, විනය, අධ්‍යාපනය සහ සමාජ සත්කාරය වෙනුවෙන් කැපවූ අභිමානවත් ගමන්මඟක්.",
+      "en": "A proud tradition dedicated to Dhamma, discipline, education and community service.",
+      "ta": "தர்மம், ஒழுக்கம், கல்வி மற்றும் சமூகச் சேவைக்காக அர்ப்பணிக்கப்பட்ட பெருமைமிகு பயணம்.",
+      "tag": "p"
+    },
+    {
+      "key": "text.footer.004",
+      "section": "footer",
+      "si": "ඉහළට යන්න",
+      "en": "Back to top",
+      "ta": "மேலே செல்ல",
+      "tag": "span"
+    },
+    {
+      "key": "text.footer.005",
+      "section": "footer",
+      "si": "මුල් ඉතිහාස ලේඛනය ඇසුරින් සකස් කළ අන්තර්ජාල අත්දැකීමකි.",
+      "en": "Based on the original commemorative publication.",
+      "ta": "அசல் வரலாற்று ஆவணத்தின் அடிப்படையில் உருவாக்கப்பட்டது.",
+      "tag": "span"
+    },
+    {
+      "key": "text.general.007",
+      "section": "general",
+      "si": "සම්පූර්ණ ඡායාරූපය බලන්න ↗",
+      "en": "Open full-size image ↗",
+      "ta": "முழு அளவுப் படத்தைத் திறக்க ↗",
+      "tag": "span"
+    },
+    {
+      "key": "text.news.001",
+      "section": "news",
+      "si": "අපේ අලුත්ම පුවත්",
+      "en": "Latest News",
+      "ta": "எங்கள் அண்மைய செய்திகள்",
+      "tag": "h2"
+    },
+    {
+      "key": "text.news.002",
+      "section": "news",
+      "si": "පිරිවෙනේ වැඩසටහන්, ජයග්‍රහණ සහ වැදගත් නිවේදන.",
+      "en": "Events, achievements and important announcements from the pirivena.",
+      "ta": "பிரிவெனாவின் நிகழ்வுகள், சாதனைகள் மற்றும் முக்கிய அறிவிப்புகள்.",
+      "tag": "p"
+    },
+    {
+      "key": "text.news.003",
+      "section": "news",
+      "si": "සියලුම පුවත් බලන්න",
+      "en": "View all news",
+      "ta": "அனைத்து செய்திகளையும் பார்க்க",
+      "tag": "span"
+    },
+    {
+      "key": "caption.achievements.001",
+      "section": "achievements",
+      "si": "2015–2021 සම්මාන හා ඇගයීම් — සංවත්සර ලේඛනයේ 10 වැනි පිටුව",
+      "en": "Awards and recognition, 2015–2021 — commemorative document, page 10",
+      "ta": "2015–2021 விருதுகளும் பாராட்டுகளும் — நினைவு ஆவணம், பக்கம் 10",
+      "tag": "caption"
+    },
+    {
+      "key": "caption.achievements.002",
+      "section": "achievements",
+      "si": "2017–2021 ජයග්‍රහණ කුසලාන — සංවත්සර ලේඛනයේ 11 වැනි පිටුව",
+      "en": "Achievement trophies, 2017–2021 — commemorative document, page 11",
+      "ta": "2017–2021 சாதனைக் கோப்பைகள் — நினைவு ஆவணம், பக்கம் 11",
+      "tag": "caption"
+    },
+    {
+      "key": "caption.achievements.003",
+      "section": "achievements",
+      "si": "ශිෂ්‍ය දහම් පාසල් ජයග්‍රහණ — සංවත්සර ලේඛනයේ 12 වැනි පිටුව",
+      "en": "Dhamma-school student achievements — commemorative document, page 12",
+      "ta": "அறநெறிப் பாடசாலை மாணவர் சாதனைகள் — நினைவு ஆவணம், பக்கம் 12",
+      "tag": "caption"
+    },
+    {
+      "key": "caption.achievements.004",
+      "section": "achievements",
+      "si": "2024–2025 ඇගයීම් හා සම්මාන — සංවත්සර ලේඛනයේ 13 වැනි පිටුව",
+      "en": "Awards and distinctions, 2024–2025 — commemorative document, page 13",
+      "ta": "2024–2025 பாராட்டுகளும் விருதுகளும் — நினைவு ஆவணம், பக்கம் 13",
+      "tag": "caption"
+    },
+    {
+      "key": "caption.gallery.005",
+      "section": "gallery",
+      "si": "ශිෂ්‍ය භික්ෂූන් වහන්සේලාගේ අධ්‍යාපන චාරිකාව",
+      "en": "Educational visit by student monks",
+      "ta": "மாணவ பிக்குகளின் கல்விச் சுற்றுலா",
+      "tag": "caption"
+    },
+    {
+      "key": "caption.gallery.006",
+      "section": "gallery",
+      "si": "පිරිවෙනේ ආගමික හා ප්‍රජා සත්කාර වැඩසටහනක්",
+      "en": "Religious and community event",
+      "ta": "பிரிவெனாவின் சமய மற்றும் சமூகச் சேவை நிகழ்வு",
+      "tag": "caption"
+    },
+    {
+      "key": "caption.gallery.007",
+      "section": "gallery",
+      "si": "2026 දහම් අධ්‍යාපන සහ ප්‍රදාන වැඩසටහන්",
+      "en": "2026 Dhamma education and awards",
+      "ta": "2026 தர்மக் கல்வி மற்றும் பரிசளிப்பு நிகழ்வுகள்",
+      "tag": "caption"
+    },
+    {
+      "key": "caption.gallery.008",
+      "section": "gallery",
+      "si": "පිරිවෙනට සිදුකළ පරිත්‍යාගයක්",
+      "en": "A contribution to the pirivena",
+      "ta": "பிரிவெனாவிற்கான நன்கொடை",
+      "tag": "caption"
+    },
+    {
+      "key": "caption.gallery.009",
+      "section": "gallery",
+      "si": "2026 දහම් පාසල් ප්‍රතිඵල හා ශිෂ්‍ය ජයග්‍රහණ සටහන",
+      "en": "2026 Dhamma-school results and student achievements",
+      "ta": "2026 அறநெறிப் பாடசாலைப் பெறுபேறுகளும் மாணவர் சாதனைகளும்",
+      "tag": "caption"
+    },
+    {
+      "key": "caption.gallery.010",
+      "section": "gallery",
+      "si": "පරිසර සංරක්ෂණයට එක්වන ශිෂ්‍ය භික්ෂූන් වහන්සේලා",
+      "en": "Student monks caring for the environment",
+      "ta": "சுற்றுச்சூழல் பாதுகாப்பில் ஈடுபடும் மாணவ பிக்குகள்",
+      "tag": "caption"
+    },
+    {
+      "key": "caption.affiliates.011",
+      "section": "affiliates",
+      "si": "පිරිවෙන් විහාරස්ථානයට අනුබද්ධ ආගමික ස්ථාන — මුල් ලැයිස්තුව",
+      "en": "Affiliated religious locations — the original list",
+      "ta": "பிரிவெனா விகாரையுடன் இணைந்த சமய இடங்கள் — அசல் பட்டியல்",
+      "tag": "caption"
+    }
+  ],
+  "media": [
+    {
+      "key": "media.home.001",
+      "section": "home",
+      "kind": "image",
+      "url": "assets/monks-pilgrimage.jpg",
+      "label": "monks-pilgrimage.jpg"
+    },
+    {
+      "key": "media.home.002",
+      "section": "home",
+      "kind": "image",
+      "url": "assets/monks-environment.jpg",
+      "label": "monks-environment.jpg"
+    },
+    {
+      "key": "media.history.001",
+      "section": "history",
+      "kind": "image",
+      "url": "assets/founder.jpg",
+      "label": "founder.jpg"
+    },
+    {
+      "key": "media.about.001",
+      "section": "about",
+      "kind": "image",
+      "url": "assets/sangha-event.jpg",
+      "label": "sangha-event.jpg"
+    },
+    {
+      "key": "media.about.002",
+      "section": "about",
+      "kind": "image",
+      "url": "assets/education-event.jpg",
+      "label": "education-event.jpg"
+    },
+    {
+      "key": "media.leadership.001",
+      "section": "leadership",
+      "kind": "image",
+      "url": "assets/founder.jpg",
+      "label": "founder.jpg"
+    },
+    {
+      "key": "media.leadership.002",
+      "section": "leadership",
+      "kind": "image",
+      "url": "assets/elder-monk.jpg",
+      "label": "elder-monk.jpg"
+    },
+    {
+      "key": "media.leadership.003",
+      "section": "leadership",
+      "kind": "image",
+      "url": "assets/leader-two.jpg",
+      "label": "leader-two.jpg"
+    },
+    {
+      "key": "media.leadership.004",
+      "section": "leadership",
+      "kind": "image",
+      "url": "assets/current-leadership.jpg",
+      "label": "current-leadership.jpg"
+    },
+    {
+      "key": "media.achievements.001",
+      "section": "achievements",
+      "kind": "image",
+      "url": "assets/trophy.jpg",
+      "label": "trophy.jpg"
+    },
+    {
+      "key": "media.achievements.002",
+      "section": "achievements",
+      "kind": "image",
+      "url": "assets/award-history-10.jpg",
+      "label": "award-history-10.jpg"
+    },
+    {
+      "key": "media.achievements.003",
+      "section": "achievements",
+      "kind": "image",
+      "url": "assets/award-history-11.jpg",
+      "label": "award-history-11.jpg"
+    },
+    {
+      "key": "media.achievements.004",
+      "section": "achievements",
+      "kind": "image",
+      "url": "assets/award-history-12.jpg",
+      "label": "award-history-12.jpg"
+    },
+    {
+      "key": "media.achievements.005",
+      "section": "achievements",
+      "kind": "image",
+      "url": "assets/award-history-13.jpg",
+      "label": "award-history-13.jpg"
+    },
+    {
+      "key": "media.gallery.001",
+      "section": "gallery",
+      "kind": "image",
+      "url": "assets/monks-pilgrimage.jpg",
+      "label": "monks-pilgrimage.jpg"
+    },
+    {
+      "key": "media.gallery.002",
+      "section": "gallery",
+      "kind": "image",
+      "url": "assets/sangha-event.jpg",
+      "label": "sangha-event.jpg"
+    },
+    {
+      "key": "media.gallery.003",
+      "section": "gallery",
+      "kind": "image",
+      "url": "assets/education-event.jpg",
+      "label": "education-event.jpg"
+    },
+    {
+      "key": "media.gallery.004",
+      "section": "gallery",
+      "kind": "image",
+      "url": "assets/gift-event.jpg",
+      "label": "gift-event.jpg"
+    },
+    {
+      "key": "media.gallery.005",
+      "section": "gallery",
+      "kind": "image",
+      "url": "assets/2026-results.jpg",
+      "label": "2026-results.jpg"
+    },
+    {
+      "key": "media.gallery.006",
+      "section": "gallery",
+      "kind": "image",
+      "url": "assets/monks-environment.jpg",
+      "label": "monks-environment.jpg"
+    },
+    {
+      "key": "media.archive.001",
+      "section": "archive",
+      "kind": "document",
+      "url": "assets/vidyakeerthi-history-1959-2026.pdf",
+      "label": "vidyakeerthi-history-1959-2026.pdf"
+    },
+    {
+      "key": "media.affiliates.001",
+      "section": "affiliates",
+      "kind": "poster",
+      "url": "assets/affiliates-poster.jpg",
+      "label": "affiliates-poster.jpg"
+    },
+    {
+      "key": "media.affiliates.002",
+      "section": "affiliates",
+      "kind": "video",
+      "url": "assets/affiliated-places.mp4",
+      "label": "affiliated-places.mp4"
+    },
+    {
+      "key": "media.affiliates.003",
+      "section": "affiliates",
+      "kind": "image",
+      "url": "assets/affiliates-original.png",
+      "label": "affiliates-original.png"
+    }
+  ],
+  "timeline": {
+    "1959": {
+      "index": "01 / THE FOUNDATION",
+      "tag": "25 JULY 1959",
+      "image": "assets/founder.jpg",
+      "altSi": "විද්‍යාකීර්ති පිරිවෙනේ ආරම්භක ගුරු පරපුර නියෝජනය කරන ඓතිහාසික ඡායාරූපයක්",
+      "altEn": "Archival photograph of a monk from the founding generation",
+      "si": [
+        "විද්‍යාකීර්ති පිරිවෙනේ ආරම්භය",
+        "1959 ජූලි මස 25 වැනිදා තිස්සපෑල පින්බිමේ පිරිවෙන ආරම්භ විය. ආදි කර්තෘ ස්වාමීන් වහන්සේලාගේ සහ ගිහි පැවිදි දායකයන්ගේ කැපවීමෙන් ධර්ම ශාස්ත්‍රීය අධ්‍යාපනයේ නව පරිච්ඡේදයක් ඇරඹුණි."
+      ],
+      "en": [
+        "The founding of Vidyakeerthi",
+        "On 25 July 1959, the pirivena was established in Tissapela. The dedication of its founding monks and lay supporters began a new chapter in Buddhist and classical education."
+      ],
+      "ta": [
+        "வித்யாகீர்த்தி பிரிவெனாவின் தொடக்கம்",
+        "1959 ஜூலை 25 அன்று திஸ்ஸபேலவில் இப்பிரிவெனா நிறுவப்பட்டது. நிறுவனர் பிக்குகள் மற்றும் பொதுமக்களின் அர்ப்பணிப்புடன் பௌத்த, சாஸ்திரக் கல்வியில் புதிய அத்தியாயம் தொடங்கியது."
+      ]
+    },
+    "1980": {
+      "index": "02 / AN IMPORTANT MILESTONE",
+      "tag": "17 JULY 1980",
+      "image": "assets/elder-monk.jpg",
+      "altSi": "විද්‍යාකීර්ති පිරිවෙනේ ආදී ගුරු පරපුරේ ස්වාමීන් වහන්සේ නමක්",
+      "altEn": "Archival portrait of a senior monk",
+      "si": [
+        "මහා පිරිවෙනක් ලෙස උසස්වීම",
+        "අධ්‍යාපනික මෙහෙවරේ වැදගත් සන්ධිස්ථානයක් සනිටුහන් කරමින් 1980 ජූලි මස 17 වැනිදා විද්‍යාකීර්ති පිරිවෙන මහා පිරිවෙනක් බවට උසස් විය. එය අඛණ්ඩව වැඩුණු ශාස්ත්‍රීය සේවාවට ලැබුණු විශේෂ පිළිගැනීමකි."
+      ],
+      "en": [
+        "Recognition as a Maha Pirivena",
+        "On 17 July 1980, Vidyakeerthi was elevated to the status of Maha Pirivena — an important milestone acknowledging its growing educational mission."
+      ],
+      "ta": [
+        "மகா பிரிவெனாவாக உயர்வு",
+        "1980 ஜூலை 17 அன்று வித்யாகீர்த்தி பிரிவெனா மகா பிரிவெனா என்ற நிலைக்கு உயர்த்தப்பட்டது. கல்விப் பணியின் வளர்ச்சியை அங்கீகரித்த முக்கியமான வரலாற்றுத் தருணமாக இது அமைந்தது."
+      ]
+    },
+    "2009": {
+      "index": "03 / GOLDEN JUBILEE",
+      "tag": "50 YEARS · 2009",
+      "image": "assets/leader-one.jpg",
+      "altSi": "67 වන සංවත්සර ලේඛනයට සුබ පැතුම් එක් කළ ස්වාමීන් වහන්සේ නමක්",
+      "altEn": "Portrait of a senior monk featured in the commemorative publication",
+      "si": [
+        "ස්වර්ණ ජයන්තියෙන් නව අභිමානයක්",
+        "1959 ආරම්භ වූ සේවාව වසර 50ක් සපිරූ 2009 දී ස්වර්ණ ජයන්තිය සැමරූ අතර, එම ශාස්ත්‍රීය හා ශාසනික උරුමය සංවත්සර ලේඛන තුළ ද සටහන් විය."
+      ],
+      "en": [
+        "Celebrating the golden jubilee",
+        "The year 2009 marked 50 years since the founding of the pirivena. Its golden jubilee celebrated the institution’s scholarly and religious heritage."
+      ],
+      "ta": [
+        "பொன்விழா கொண்டாட்டம்",
+        "1959 ஆம் ஆண்டு தொடங்கிய சேவை 50 ஆண்டுகளை நிறைவு செய்த 2009 இல் பொன்விழா கொண்டாடப்பட்டது. அந்நிறுவனத்தின் கல்வி மற்றும் சமய மரபு நினைவு ஆவணங்களிலும் பதிவு செய்யப்பட்டது."
+      ]
+    },
+    "2012": {
+      "index": "04 / SCHOLARLY CONTINUITY",
+      "tag": "SCHOLARSHIP · 2012",
+      "image": "assets/leader-two.jpg",
+      "altSi": "සංවත්සර ලේඛනයේ සඳහන් පිරිවෙන් අධ්‍යාපනික නායක ස්වාමීන් වහන්සේ නමක්",
+      "altEn": "Monastic educator pictured in the commemorative publication",
+      "si": [
+        "ශාස්ත්‍රීය ගමනේ තවත් පරිච්ඡේදයක්",
+        "2012 වසරේ ශාස්ත්‍රීය ප්‍රකාශන සහ පිරිවෙන් සේවා ඇගයීම් හරහා විද්‍යාකීර්ති පිරිවෙනේ අධ්‍යාපනික හා සම්ප්‍රදායික මෙහෙවර තවදුරටත් සනිටුහන් විය."
+      ],
+      "en": [
+        "Another chapter in scholarship",
+        "Scholarly publications and recognition during 2012 added another chapter to the pirivena’s educational and cultural contributions."
+      ],
+      "ta": [
+        "கல்விப் பயணத்தின் மற்றொரு அத்தியாயம்",
+        "2012 ஆம் ஆண்டில் வெளியான கல்விசார் படைப்புகளும் பிரிவெனாவின் சேவைக்குக் கிடைத்த பாராட்டுகளும் அதன் கல்வி மற்றும் பண்பாட்டுப் பங்களிப்பை மேலும் உறுதிப்படுத்தின."
+      ]
+    },
+    "2026": {
+      "index": "05 / THE LEGACY CONTINUES",
+      "tag": "67 YEARS · 2026",
+      "image": "assets/2026-results.jpg",
+      "altSi": "2026 වසරේ විද්‍යාකීර්ති දහම් පාසල් ජයග්‍රහණ පෝස්ටරය",
+      "altEn": "2026 Dhamma-school student achievements poster",
+      "si": [
+        "අභිමානවත් 67 වැනි සංවත්සරය",
+        "2026 ජූලි මස 25 වැනිදාට වසර 67ක් සම්පූර්ණ කළ විද්‍යාකීර්ති මහා පිරිවෙන, ශිෂ්‍ය ජයග්‍රහණ, ආගමික හා සමාජ සත්කාර සහ අනාගත සැලසුම් සමඟ නව පරපුරකට සිය උරුමය පවරයි."
+      ],
+      "en": [
+        "67 years of Vidyakeerthi",
+        "On 25 July 2026, Vidyakeerthi Maha Pirivena completed 67 years, looking ahead through student achievements, religious and community service, and plans for the future."
+      ],
+      "ta": [
+        "பெருமைமிகு 67ஆம் ஆண்டு நிறைவு",
+        "2026 ஜூலை 25 அன்று வித்யாகீர்த்தி மகா பிரிவெனா 67 ஆண்டுகளை நிறைவு செய்தது. மாணவர்களின் சாதனைகள், சமய மற்றும் சமூகச் சேவைகள், எதிர்காலத் திட்டங்கள் ஆகியவற்றுடன் தனது மரபை அடுத்த தலைமுறைக்குக் கொண்டு செல்கிறது."
+      ]
+    }
+  }
+}

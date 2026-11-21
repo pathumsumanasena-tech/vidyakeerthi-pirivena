@@ -46,6 +46,7 @@
     }
   };
 
+  window.VIDYA_TIMELINE_DEFAULTS = milestones;
   const timelineButtons = [...document.querySelectorAll('.timeline-step')];
   let currentYear = '1959';
   function renderMilestone(year) {
@@ -73,6 +74,18 @@
     void textPanel.offsetWidth;
     textPanel.style.animation = '';
   }
+  window.VIDYA_APPLY_TIMELINE = function (overrides) {
+    Object.entries(overrides || {}).forEach(([year, data]) => {
+      if (!milestones[year] || !data) return;
+      const merged = { ...milestones[year], ...data };
+      // Merge language title/description arrays with defaults where not supplied.
+      for (const lang of ['si','en','ta']) {
+        if (Array.isArray(data[lang])) merged[lang] = data[lang];
+      }
+      milestones[year] = merged;
+    });
+    renderMilestone(currentYear);
+  };
   timelineButtons.forEach((button, index) => {
     button.addEventListener('click', () => renderMilestone(button.dataset.year));
     button.addEventListener('keydown', event => {
@@ -93,7 +106,7 @@
     document.body.classList.toggle('lang-ta', language === 'ta');
     document.querySelectorAll('[data-si][data-en]').forEach(element => {
       element.textContent = language === 'ta'
-        ? (tamilTranslations[element.dataset.si] || element.dataset.si)
+        ? (element.dataset.ta || tamilTranslations[element.dataset.si] || element.dataset.si)
         : element.dataset[language];
     });
     languageButtons.forEach(button => {
@@ -107,6 +120,7 @@
         ? 'வித்யாகீர்த்தி மகா பிரிவெனா | திஸ்ஸபேல'
         : 'Vidyakeerthi Maha Pirivena | Tissapela';
     renderMilestone(currentYear);
+    document.dispatchEvent(new CustomEvent('vidya:language', { detail: { language } }));
   }
   languageButtons.forEach(button => button.addEventListener('click', () => {
     language = button.dataset.lang;
@@ -173,7 +187,7 @@
       photoCaption.textContent = language === 'si'
         ? button.dataset.captionSi
         : language === 'ta'
-          ? (tamilTranslations[button.dataset.captionSi] || button.dataset.captionSi)
+          ? (button.dataset.captionTa || tamilTranslations[button.dataset.captionSi] || button.dataset.captionSi)
           : button.dataset.captionEn;
       if (typeof photoDialog.showModal === 'function') photoDialog.showModal();
       else window.open(button.dataset.image, '_blank', 'noopener');
